@@ -15,4 +15,8 @@ const NomePersonalizado = (props: NomeProps) => {
   )
 };
 
+const SemBatata = () => {
+  
+}
+
 export default NomePersonalizado;

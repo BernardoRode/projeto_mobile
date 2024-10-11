@@ -5,6 +5,13 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#FFFACD'
     },
+    telaLogin: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 20,
+        backgroundColor: '#f5f5f5',
+    },
     titulo1: {
         fontSize: 40,
         fontWeight: 'bold',
@@ -15,9 +22,15 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: 'black'
     },
+    titulo3: {
+        fontSize: 25,
+        fontWeight: 'bold',
+        color: 'black'
+    },
     botao: {
         justifyContent: 'center',
-        backgroundColor: 'green',
+        backgroundColor: 'black',
+        color: 'white',
         paddingVertical: 10,
         paddingHorizontal: 30,
         marginTop: 20,
@@ -27,7 +40,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color: 'white'
     },
-    
+
     caixa_texto: {
         color: 'black',
         fontSize: 20,
@@ -43,7 +56,17 @@ const styles = StyleSheet.create({
     imagem_200: {
         width: 200,
         height: 200
+    },
+    TelaLogin: {
+        alignItems: 'center'
+    },
+    desc_botao: {
+        fontSize: 20,
+        color: 'white'
+    },
+    item: {
+        
     }
 });
 
-export {styles};
+export { styles };
